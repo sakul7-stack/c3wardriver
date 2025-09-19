@@ -1,7 +1,7 @@
 # ESP32-C3 Super Mini Wardriver
 
 A minimal and cheap wardriver using ESP32-C3 Super Mini and a GPS module. Scans nearby Wi-Fi networks, logs them along with GPS coordinates, and stores the data in CSV format on LittleFS.
--Wiggle.net format decode will be added soon.
+- Wiggle.net format decode will be added soon.
 
 ## Parts List
 
@@ -14,7 +14,7 @@ A minimal and cheap wardriver using ESP32-C3 Super Mini and a GPS module. Scans 
 | ESP32 Pin    | Device / Signal | Notes                                           |
 |--------------|----------------|-------------------------------------------------|
 | GPIO20 (RX1) | GPS TX         | Receive GPS data from GPS module                |
-| GPIO21 (TX1) | GPS RX         | Optional: send data to GPS (usually not needed) |
+| GPIO21 (TX1) | GPS RX         | Optional:  not needed |
 | GPIO9        | Push Button    | Connect to one side of button, other side to GND |
 | 3.3V / 5V    | GPS VCC        | Depends on GPS module voltage tolerance         |
 | GND          | GPS & Button GND | Common ground for GPS and button              |
