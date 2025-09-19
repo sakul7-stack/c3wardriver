@@ -1,6 +1,7 @@
 # ESP32-C3 Super Mini Wardriver
 
 A minimal and cheap wardriver using ESP32-C3 Super Mini and a GPS module. Scans nearby Wi-Fi networks, logs them along with GPS coordinates, and stores the data in CSV format on LittleFS.
+Wiggle.net format decode will be added soon.
 
 ## Parts List
 
